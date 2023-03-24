@@ -26,7 +26,7 @@ export default function ContentPage() {
         <div id="contentpage">
             {status === 0 && <p>Loading... </p>}
             {status === 1 && <div className="contentpage">
-                <h1> welcome to content page</h1>
+                <h1 id="contenthead"> welcome to content page</h1>
                 <div className="course-data">{
                     (courseData.length > 0) ? CourseItems : <h1>No Course available.</h1>
                 }</div>

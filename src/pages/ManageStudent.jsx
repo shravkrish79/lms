@@ -1,9 +1,8 @@
-import { useNavigate } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import { RiDeleteBinLine } from "react-icons/ri";
 import { useProfile } from "../state/useProfile";
 
 export default function ManageStudent() {
-    const Navigate = useNavigate();
     const { profileData } = useProfile();
     const studentData = profileData.filter((recs) => recs.isTeacher !== true);
     const students = studentData.map((recs) => <li key={recs.uid}>{recs.firstName} {recs.lastName}
@@ -17,8 +16,8 @@ export default function ManageStudent() {
                 <h1> Newbie </h1>
                 <span> Student List</span>
                 <ul>{students}</ul>
-                <button className="manage-student-btn" id="manage-student-cancel"
-                    onClick={() => Navigate("/contentpage")}>Go Back</button>
+                <Link className="manage-student-btn" id="manage-student-cancel"
+                    to={"/contentpage"}>Go Back</Link>
             </div>
         </div>
     )

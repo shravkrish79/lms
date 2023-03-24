@@ -1,9 +1,8 @@
-import { useNavigate, useLocation } from "react-router-dom";
+import {  useLocation,Link } from "react-router-dom";
 import { FaRegFileAlt } from "react-icons/fa";
-import { useEffect } from "react";
+
 
 export default function CourseDetail() {
-    const Navigate = useNavigate();
     const Location = useLocation();
     const data = Location.state.data;
 
@@ -33,7 +32,7 @@ export default function CourseDetail() {
                     </h3>
                     <p>{videos}</p>
                 </div>
-                <button className="detail-cancel-btn" onClick={() => Navigate("/contentpage")}>Go Back</button>
+                <Link className="detail-cancel-btn" to={"/contentpage"}>Go Back</Link>
             </div>
         </div>
     );

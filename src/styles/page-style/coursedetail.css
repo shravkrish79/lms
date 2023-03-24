@@ -40,6 +40,7 @@
 }
 
 .detail-cancel-btn {
+    text-decoration: none;
     margin: 30px;
     padding: 5px;
     width: 30%;
@@ -118,7 +119,8 @@
     }
 
     .detail-cancel-btn {
-        width: 15%;
+        width: 25%;
+        padding: 10px;
     }
 
     .video-frame {

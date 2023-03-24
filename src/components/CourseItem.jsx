@@ -31,7 +31,7 @@ export default function CourseItem({ data, profile }) {
             {
                 (profile.isTeacher !== false) && <button className="deleteCourse-btn" onClick={() => deleteCourse(data.id)} >
                     <RiDeleteBinLine className="reacticons" /></button>}
-                    <Link to="/coursedetail" state={{data}} className="card-click"> click here </Link>
+                    <Link to="/coursedetail" state={{data}} className="card-click"/>
         </div>
     );
 }

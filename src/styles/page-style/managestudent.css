@@ -9,37 +9,40 @@
     margin: 20vh auto;
     border: 2px solid #c0a756;
 }
+.student-page h1{
+    margin:10px;
+}
 
-.student-page span{
+.student-page span {
     border-bottom: 2px solid #c0a756;
 }
 
-.student-page ul{
+.student-page ul {
     margin-top: 30px;
 }
 
-.student-page ul li{
+.student-page ul li {
     /* border: 1px solid #c0a756; */
     width: 70%;
-    margin:0 auto;
+    margin: 0 auto;
     text-align: justify;
 }
 
-.student-page ul li button{
+.student-page ul li button {
     margin: 10px;
 }
 
-.student-page .reacticons{
-    display:block;
+.student-page .reacticons {
+    display: block;
     background-color: transparent;
     color: #070707;
     height: 20px;
 }
 
-.manage-student-btn{
+.manage-student-btn {
     position: absolute;
     bottom: 30px;
-    /* margin: 20px; */
+    text-decoration: none;
     padding: 5px;
     width: 30%;
     left: 50%;
@@ -49,9 +52,14 @@
     font-size: 16px;
     border: 2px solid #c0a756;
     cursor: pointer;
-}
 
-ul li{
+}
+ .manage-student-btn:hover{
+    background-color: #f3f3f3;
+    color: #0f0f0f;
+ }
+
+ul li {
     font-size: 20px;
     text-transform: capitalize;
 }
@@ -59,10 +67,11 @@ ul li{
 @media screen and (min-width:300px) and (max-width:700px) and (min-height:700px) {}
 
 @media screen and (min-width:700px) and (max-width:1024px) {
-    .student-page ul li{
+    .student-page ul li {
         width: 40%;
     }
-    ul li{
+
+    ul li {
         font-size: 24px;
     }
 }
@@ -71,13 +80,16 @@ ul li{
     .student-page {
         max-width: 60vw;
     }
-    .manage-student-btn{
+
+    .manage-student-btn {
         width: 20%;
     }
-    .student-page ul li{
+
+    .student-page ul li {
         width: 50%;
     }
-    ul li{
+
+    ul li {
         font-size: 26px;
     }
 }
@@ -86,13 +98,17 @@ ul li{
     .student-page {
         max-width: 40vw;
     }
-    .student-page ul li{
+
+    .student-page ul li {
         width: 50%;
     }
-    .manage-student-btn{
+
+    .manage-student-btn {
         width: 20%;
+        padding: 10px;
     }
-    ul li{
+
+    ul li {
         font-size: 30px;
     }
 }

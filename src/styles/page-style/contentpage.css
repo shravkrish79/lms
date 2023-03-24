@@ -3,6 +3,9 @@
     margin: 0 auto;
     display: block;
 }
+#contenthead {
+    margin-top: 20vh;
+}
 
 #contentpage a,
 #contentpage {
@@ -30,7 +33,7 @@
     max-width: 80vw;
     min-height: 60vh;
     margin: 0 auto;
-    margin-top: 40vh;
+    margin-top: 10vh;
 }
 
 .course-card {
