@@ -1,12 +1,13 @@
 #managestudent {
     text-align: center;
+    padding-bottom: 10vh;
 }
 
 .student-page {
     position: relative;
     max-width: 80vw;
     min-height: 60vh;
-    margin: 20vh auto;
+    margin: 20vh auto 15vh;
     border: 2px solid #c0a756;
 }
 .student-page h1{

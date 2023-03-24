@@ -7,6 +7,7 @@ import { useUser } from "./state/useUser";
 import LoggedRoutes from "./routes/LoggedRoutes";
 import UnLoggedRoutes from "./routes/UnLoggedRoutes";
 import ScrollTop from "./scripts/ScrollTop";
+import Footer from "./components/Footer";
 
 export default function App() {
   const { uid } = useUser();
@@ -16,7 +17,7 @@ export default function App() {
     <ScrollTop />
       {/* <Navbar /> */}
       {uid ? <LoggedRoutes /> : <UnLoggedRoutes />}
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }

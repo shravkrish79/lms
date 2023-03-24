@@ -1,3 +1,6 @@
+#contentpage{
+    padding-bottom: 20vh;
+}
 #contentpage,
 .btns {
     margin: 0 auto;

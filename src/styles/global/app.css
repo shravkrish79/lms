@@ -23,8 +23,9 @@ body {
 #root{
     position: relative;
     min-height: 100vh;
+    overflow: auto;
     box-sizing: inherit;
-    display: block;
+    /* display: block; */
 }
 
 
@@ -38,8 +39,6 @@ img, picture, video, canvas, svg {
     height: 50px;
     width: 50px;
   }
-
-
 
 
 a {

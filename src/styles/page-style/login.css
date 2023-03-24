@@ -1,4 +1,6 @@
-
+#login{
+    padding-bottom: 10vh;
+}
 .login-hero-img {
     display: none;
 }
@@ -94,6 +96,7 @@
         max-width: 80vw;
         min-height: 80vh;
         margin: 5vh auto;
+        padding-bottom: 20vh;
     }
     .login-hero-img{
         display: block;
@@ -126,6 +129,7 @@
     .login-form{
         margin-bottom: 20px;
     }
+
 }
 
 @media screen and (min-width:1025px) and (min-height:801px) {
@@ -144,6 +148,7 @@
         align-content: center;
         max-width: 70vw;
         height: 100vh;
+        padding-bottom: 10vh;
     }
     .login-hero-img img{
         width: 80%;
@@ -154,4 +159,5 @@
         width: 30vw;
         margin: 10vh auto;
     }
+
 }

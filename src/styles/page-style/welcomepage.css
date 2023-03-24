@@ -3,6 +3,7 @@
     position: absolute;
     width: 100%;
     margin:0 auto;
+
 }
 
 .welcome-page {
@@ -92,6 +93,7 @@
         width: 20%;
         max-width: 30%;
     }
+
 }
 
 @media screen and (min-width:1025px) and (min-height:801px) {
