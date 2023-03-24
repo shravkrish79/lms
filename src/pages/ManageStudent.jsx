@@ -18,7 +18,7 @@ export default function ManageStudent() {
                 <span> Student List</span>
                 <ul>{students}</ul>
                 <button className="manage-student-btn" id="manage-student-cancel"
-                    onClick={() => Navigate("/contentpage")}>Cancel</button>
+                    onClick={() => Navigate("/contentpage")}>Go Back</button>
             </div>
         </div>
     )

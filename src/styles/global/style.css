@@ -1,2 +1,18 @@
-@import "./variable.css";
+
 @import "./app.css";
+@import "./variable.css";
+
+@import "../components/navbar.css";
+@import "../components/footer.css";
+
+@import "../page-style/welcomepage.css";
+@import "../page-style/login.css";
+@import "../page-style/signup.css";
+@import "../page-style/recoverypassword.css";
+
+@import "../page-style/contentpage.css";
+
+@import "../page-style/addcourse.css";
+@import "../page-style/updatecourse.css";
+@import "../page-style//managestudent.css";
+@import "../page-style/coursedetail.css";
