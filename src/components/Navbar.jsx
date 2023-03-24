@@ -1,4 +1,4 @@
-import { FaUserCircle } from "react-icons/fa";
+import { FaUserCircle, FaCalendar } from "react-icons/fa";
 // import Calendar from "react-calendar";
 // import { useState } from "react";
 
@@ -7,9 +7,11 @@ export default function Navbar() {
     return (
         <div id="navbar">
             <div className="navbar-container">
-                <FaUserCircle className="reacticon-navbar" />
-                <div className="calendar-container">
-                    {/* <Calendar onChange={setDate} value={date} /> */}
+                <span>Newbie </span>
+                <div className="icons">
+                    <FaUserCircle className="reacticon-navbar" />
+                    <FaCalendar className="reacticon-navbar" />
+                    {/* <Calendar id="calendar-container" onChange={setDate} value={date} /> */}
                 </div>
             </div>
         </div>
